@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matthews Software &amp; Computer Repair - Services</title>
+  <meta name="description" content="We're a small, local business serving Mineola, TX and the nearby towns. We're run by just one technician, Weston, and his wife, Haley.">
+  <meta property="og:site_name" content="Matthews Software &amp; Computer Repair">
+  <meta property="og:title" content="Matthews Software &amp; Computer Repair">
+  <meta property="og:description" content="We're a small, local business serving Mineola, TX and the nearby towns. We're run by just one technician, Weston, and his wife, Haley.">
+  <meta property="og:url" content="https://matthewspcfix.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="logo" href="./">Matthews Software &amp; Computer Repair</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-banner">
+    <h1>Services</h1>
+  </section>
+
+  <section>
+    <div class="container center">
+      <h2>We provide a wide range of services</h2>
+      <p class="lead">Whether you just need your computer looked at, or need something more involved, we can handle it!<br>We also clean and repair vintage and modern video game consoles.</p>
+
+      <div class="feature">
+        <h2>Bench Fee</h2>
+        <p class="price">$35</p>
+        <p class="lead">The Bench Fee is required up front before any work can be done. If work proceeds, the fee will apply towards the final cost.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service">
+          <h2>Basic Maintenance</h2>
+          <p class="price">$45</p>
+          <p>If your PC is a little slow, or gets hot quickly, or just needs a little TLC.</p>
+        </div>
+        <div class="service">
+          <h2>Virus / Malware Removal</h2>
+          <p class="price">$60</p>
+          <p>We can remove most kinds of viruses or malware.</p>
+        </div>
+        <div class="service">
+          <h2>Software or Operating System Install</h2>
+          <p class="price">$60</p>
+          <p>Need something installed, but don't know how? Or, do you want to upgrade to a new Operating System? We can handle it for you!</p>
+        </div>
+        <div class="service">
+          <h2>PC Hardware Repair</h2>
+          <p class="price">$75 + Parts</p>
+          <p>If you need parts replaced, or if you would like to have new parts installed, we have you covered.</p>
+        </div>
+        <div class="service">
+          <h2>Game Console Maintenance</h2>
+          <p class="price">$50</p>
+          <p>We can clean and maintain most video game consoles.</p>
+        </div>
+        <div class="service">
+          <h2>Game Console Repair</h2>
+          <p class="price">$75 + Parts</p>
+          <p>If your game console needs repairing, we can replace parts for you.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <h2>Custom PC Build</h2>
+        <p class="price medium">Market Price + Labor</p>
+        <p class="lead">We can also build a custom PC for you. Prices are subject to the current part market and availability.</p>
+        <p style="margin-top:2rem"><a class="btn btn-large" href="contact.html">Contact Us</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container center">
+      <h2>Our Pricing Guarantee</h2>
+      <p class="lead">The Bench Fee is required at time of service, but we will not charge for any work if we can't fix it.<br>A free 30-day labor warranty applies to all services.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="./">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <p class="name">Matthews Software &amp; Computer Repair</p>
+    <p class="copy">Copyright &copy; 2025</p>
+  </div>
+</footer>
+<script>
+  // Mobile menu toggle
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
+</body>
+</html>

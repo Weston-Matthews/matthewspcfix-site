@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matthews Software &amp; Computer Repair - Contact</title>
+  <meta name="description" content="We're a small, local business serving Mineola, TX and the nearby towns. We're run by just one technician, Weston, and his wife, Haley.">
+  <meta property="og:site_name" content="Matthews Software &amp; Computer Repair">
+  <meta property="og:title" content="Matthews Software &amp; Computer Repair">
+  <meta property="og:description" content="We're a small, local business serving Mineola, TX and the nearby towns. We're run by just one technician, Weston, and his wife, Haley.">
+  <meta property="og:url" content="https://matthewspcfix.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="logo" href="./">Matthews Software &amp; Computer Repair</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-banner">
+    <h1>Contact Us</h1>
+  </section>
+
+  <section>
+    <div class="container">
+      <ul class="contact-list">
+        <li>Call or text: <a href="tel:+17606919873">(760) 691-9873</a></li>
+        <li>Email us at <a href="mailto:matthewspcfix@gmail.com">matthewspcfix@gmail.com</a></li>
+      </ul>
+
+      <div class="contact-cta">
+        <h2>Need a quote, or ready for a fix? Send us a message:</h2>
+        <p><a class="btn btn-large" href="mailto:matthewspcfix@gmail.com?subject=Repair%20quote%20request&amp;body=Name%3A%0D%0APhone%20Number%3A%0D%0ACommunication%20Preference%20(Any%20%2F%20Call%20%2F%20Text%20%2F%20Email)%3A%0D%0ADescribe%20Your%20Issue%3A%0D%0A">Email Us</a></p>
+      </div>
+
+      <!--
+        The old Square Online / Weebly site had a contact form here (fields: Name [First/Last],
+        Email, Phone Number, Communication Preference [Any/Call/Text/Email], Describe Your Issue;
+        all required). Weebly's form handler will stop working after the move, so this draft uses
+        the mailto: button above instead.
+
+        To restore a real form: create a free form at https://formspree.io, replace YOUR_FORM_ID
+        below, then uncomment this block.
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <p><label>First name *<br><input type="text" name="first_name" required></label></p>
+        <p><label>Last name *<br><input type="text" name="last_name" required></label></p>
+        <p><label>Email *<br><input type="email" name="email" required></label></p>
+        <p><label>Phone Number *<br><input type="tel" name="phone" required></label></p>
+        <fieldset>
+          <legend>Communication Preference *</legend>
+          <label><input type="radio" name="preference" value="Any" required> Any</label>
+          <label><input type="radio" name="preference" value="Call"> Call</label>
+          <label><input type="radio" name="preference" value="Text"> Text</label>
+          <label><input type="radio" name="preference" value="Email"> Email</label>
+        </fieldset>
+        <p><label>Describe Your Issue *<br><textarea name="message" rows="8" required></textarea></label></p>
+        <input type="hidden" name="_subject" value="New message from matthewspcfix.com">
+        <p><button class="btn" type="submit">Submit</button></p>
+      </form>
+      -->
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="./">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <p class="name">Matthews Software &amp; Computer Repair</p>
+    <p class="copy">Copyright &copy; 2025</p>
+  </div>
+</footer>
+<script>
+  // Mobile menu toggle
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
+</body>
+</html>

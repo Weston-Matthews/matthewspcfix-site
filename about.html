@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matthews Software &amp; Computer Repair - About</title>
+  <meta name="description" content="We're a small, local business serving Mineola, TX and the nearby towns. We're run by just one technician, Weston, and his wife, Haley.">
+  <meta property="og:site_name" content="Matthews Software &amp; Computer Repair">
+  <meta property="og:title" content="Matthews Software &amp; Computer Repair">
+  <meta property="og:description" content="We're a small, local business serving Mineola, TX and the nearby towns. We're run by just one technician, Weston, and his wife, Haley.">
+  <meta property="og:url" content="https://matthewspcfix.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="logo" href="./">Matthews Software &amp; Computer Repair</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-banner">
+    <h1>About Us</h1>
+  </section>
+
+  <section>
+    <div class="container center">
+      <h2>Meet Weston, your local technician</h2>
+      <p class="lead">My name is Weston Matthews and I live with my family in Mineola, TX.</p>
+      <p class="lead">I've been fixing and building computers since High School, nearly 20 years ago. I know the ins and outs of PC hardware and software, as well as vintage video game consoles. It started with my own custom PC builds, then fixing my old game consoles, then doing favors for friends and family. Now, I'd like to serve the community and provide a good, honest service that many seem to be in dire need of.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="./">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <p class="name">Matthews Software &amp; Computer Repair</p>
+    <p class="copy">Copyright &copy; 2025</p>
+  </div>
+</footer>
+<script>
+  // Mobile menu toggle
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
+</body>
+</html>
